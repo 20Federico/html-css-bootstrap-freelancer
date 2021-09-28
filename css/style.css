@@ -1,0 +1,36 @@
+
+h1 {
+  font-size: 55px;
+}
+h2 {
+  font-size: 40px;
+}
+
+header {
+  background-color: #2C3E50;
+}
+
+img {
+  max-width: 100%;
+}
+
+.hero_section,
+.about_section {
+  background-color: #1ABC9C;
+  color: white;
+}
+
+.hero_section img {
+  width: 230px;
+}
+
+.portfolio_imgs img {
+  border-radius: 10px;
+}
+
+.btn-primary {
+  background-color: #1ABC9C;
+  border-color: #1ABC9C;
+}
+
+
