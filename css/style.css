@@ -10,6 +10,10 @@ header {
   background-color: #2C3E50;
 }
 
+footer {
+  background-color: #3A546D;
+}
+
 img {
   max-width: 100%;
 }
@@ -31,6 +35,35 @@ img {
 .btn-primary {
   background-color: #1ABC9C;
   border-color: #1ABC9C;
+}
+
+.box {
+  text-align: center;
+  color: white;
+  padding: 0 20px;
+}
+
+.footer_p {
+  font-size: 12px
+}
+
+footer i {
+  font-size: 12px;
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 30px;
+}
+
+.colored_text {
+  color: #1ABC9C;
+}
+
+.footer_foot {
+  text-align: center;
+  background-color: #2C3E50;
+  color: white;
+  font-size: 10px;
 }
 
 
