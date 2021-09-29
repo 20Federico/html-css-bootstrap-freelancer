@@ -6,12 +6,33 @@ h2 {
   font-size: 40px;
 }
 
-header {
+nav {
   background-color: #2C3E50;
 }
 
 footer {
   background-color: #3A546D;
+}
+
+footer i {
+  font-size: 12px;
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 50%;
+  width: 30px;
+}
+
+footer i:nth-of-type(1):hover {
+  background-color: #3b5998;
+}
+footer i:nth-of-type(2):hover {
+  background-color: #d34836;
+}
+footer i:nth-of-type(3):hover {
+  background-color: #1DA1F2;
+}
+footer i:nth-of-type(4):hover {
+  background-color: #0e76a8;
 }
 
 img {
@@ -32,6 +53,32 @@ img {
   border-radius: 10px;
 }
 
+.my_card {
+  position: relative;
+  overflow: hidden;
+}
+
+.card_description {
+  position: absolute;
+  color: white;
+  padding: 0 20px;
+  top: 100%;
+  transition: top 1s;
+}
+
+.my_card img {
+  transition: 1s;
+}
+
+.my_card:hover img {
+  filter: blur(4px) brightness(50%);
+}
+
+.my_card:hover .card_description {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .btn-primary {
   background-color: #1ABC9C;
   border-color: #1ABC9C;
@@ -47,14 +94,6 @@ img {
   font-size: 12px
 }
 
-footer i {
-  font-size: 12px;
-  padding: 8px;
-  border: 1px solid;
-  border-radius: 50%;
-  width: 30px;
-}
-
 .colored_text {
   color: #1ABC9C;
 }
@@ -64,6 +103,18 @@ footer i {
   background-color: #2C3E50;
   color: white;
   font-size: 10px;
+}
+
+@media only screen and (max-width: 575px) {
+  h1 {
+    font-size: 35px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  .hero_section_description {
+    font-size: 14px !important;
+  }
 }
 
 
